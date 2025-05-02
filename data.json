@@ -1,0 +1,11 @@
+{
+  "input": "<|user|>\nSummarize the following list of tasks:\n\n- Fix login page bug in mobile app\n- Update user profile UI in dashboard\n- Write integration tests for payment gateway\n- Research and present GraphQL pros and cons\n- Improve server response time under load\n<|assistant|>\n",
+  "parameters": {
+    "decoding_method": "greedy",
+    "max_new_tokens": 200,
+    "stop_sequences": [],
+    "repetition_penalty": 1.0
+  },
+  "model_id": "ibm/granite-13b-instruct-v2",
+  "project_id": "your-ibm-project-id"
+}
